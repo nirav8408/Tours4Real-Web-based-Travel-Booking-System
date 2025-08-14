@@ -1,0 +1,288 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.about{
+width: 100%;
+height: 100vh;
+background-color: #161922;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.about.content img{
+height: auto;
+width: 600px;
+max-width: 100%;
+}
+
+.text{
+    width: 550px;
+    max-width: 100%;
+    padding:  0 10px;
+}
+
+.content{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: column;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.text h1{
+    color: #ffcc74;
+    font-size: 85 px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.text h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.text p{
+    color: #c0c4d6;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing:1px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: #ffcc74;
+    color: black;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding:10px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+button:hover{
+    /* transform: scale(1,1); */
+    background-color: transparent;
+    border: 2px solid #ffcc74;
+    color: #ffcc74;
+    transition: .4s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .about{
+        width: 100%;
+        height:auto;
+        padding: 70px 0px;
+    }
+    .row{
+
+        width:100%;
+        height:75%;
+        padding:30px;
+        position:absolute;
+        
+        /* justify-content: space-evenly; */
+    }
+
+    .about-item{
+        /* width:400px;
+        height:300px; */
+        font-family: 'Josefin Sans', sans-serif;
+        margin:0px 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        background-color: #ffcc74;
+        padding: 80px 30px;
+        box-shadow: 0 0 9px rgba(0,0,0.6);
+        
+        
+    }
+    .about-item i{
+        font-size: 43px;
+        margin: 0;
+    }
+    
+    .content{
+        width: 1280px;
+        max-width: 65%;
+        margin: 0 auto;
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .about .content img{
+        margin-bottom: 35px;
+    }
+    .text h1{
+        font-size:60px ;
+        margin-bottom: 25px;
+    }
+}
+
+.ourworks-box{
+	width: 60%;
+	justify-content: center;
+	text-align: center;
+}
+
+.our-works-head{
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+.introduce{
+	height: 250px;
+	background-color:white;
+	box-shadow: 0 3px 10px #5969f642;
+	border-bottom: 4px solid #5969f6;
+	color: black;
+}
+
+.introduce:hover{
+	box-shadow: 0 3px 15px #5969f666;
+	border-bottom: 4px solid #B122e5;
+	color: black;
+	text-decoration: none;
+}
+.flex-column-1{
+	height: 70%;
+	width: 100%;
+
+}
+.flex-column-2{
+	height: 30%;
+	width: 100%;
+	align-items:center;
+}
+.text-gray{
+	color: gray;
+}
+.pic{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+}
+
+.introduce:hover .pic{
+	transform: scale(1.1);
+}
+.carousel-indicators .active{
+	background-color: #46eeaa;
+}
+.carousel-indicators li{
+	background-color: #c8e5ff;
+}
+.carousel-indicators{
+	bottom: -50px;
+}
+.p1{
+	background-image: url("http://lorempixel.com/150/150/nature");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.p2{
+	background-image: url("http://lorempixel.com/150/150/people");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.p3{
+	background-image: url("http://lorempixel.com/150/150/cats");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 80px 30px;
+    box-shadow: 0 0 9px rgba(0,0,0.6);
+}
+
+/*======================================
+adding style to the icons(book,globe,pencil)
+=========================================*/
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+
+/*======================================
+adding style to h3(heading 3) of each item 
+=========================================*/
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/*======================================
+styling the hr (the blue line in between)
+=========================================*/
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: #5fbff9;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+}
+
+/*========================================
+hover means when you put your cursor over it
+=========================================*/
+.about-item:hover{
+    background-color: #5fbff9;
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: #fff;
+}
+.about-item:hover hr{
+    background-color: #fff;
+}
+
+/*==============================================================================
+translate Y: move along the Y axis, negative(-20) moves it up, while positive(20) moves in down by  
+================================================================================*/
+.about-item:hover i{
+    transform: translateY(-20px);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+    transition: all 400ms ease-in-out;
+}
+
+footer{
+    background: #212226;
+    padding: 20px;
+}
+footer p{
+    color: #fff;
+}
+
+/*================================================================================
+if you manage it to this far, congratulations, check more on https://devhubke.com
+=================================================================================*/

@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:white;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card1{
+    border: 2px solid darkgray;
+    background: white;
+    width: 270px;
+    /* height: 400px; */
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image1{
+   
+    height: 170px;
+    margin-bottom: 15px;
+    background-size:cover ;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.car-1{
+    background-image: url('/img/1.jpg');
+}
+
+.car-2{
+    background-image: url('/img/2.jpg');
+}
+
+.car-3{
+    background-image: url('/img/3.jpg');
+}
+.card1 p{
+    padding: 10px;
+}
+
+.card1 h2{
+    padding: 10px;
+    text-align: center;
+}
+
+.card1 a{
+    background-color: black;
+    color:white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card1:hover{
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+.checked {
+    color: orange;
+  }
+/* .card1 i{
+  display: flex; */
+ /* justify-items: center; */
+ /* justify-content: center; */
+   /* text-align: center; */
+   /* flex-direction: row-reverse;
+} */
+
+h6{
+    font-size: 26px;
+    text-align: center;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+
+li{
+    padding-top: 5px;
+    font-size: 26px;
+    margin: 3px;
+}
+li:hover{
+    transform: scale(1.3);
+    transition: .6s;
+}
+
+
+.heading1{
+    text-align: center;
+    margin-top: 25px;
+
+}
+.heading1 h1{
+    margin-top: 85px;
+    font-size: 50px;
+    color: #36455c;
+    margin-bottom: 10px;
+}
+
+.heading1 p{
+    font-size: 20px;
+    color:#666;
+    margin-bottom: 50px;
+
+}
+
+.about-us{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin:auto;
+
+}
+
+.about-us img{
+    border-radius: 20px;
+    flex:0 50%;
+    max-width: 50%;
+    height: auto;
+}
+
+.content1{
+    padding: 35px;
+
+}
+
+.content1 h2{
+    color: #36455c;
+    font-size: 24px;
+    margin: 15px 0px;
+    
+}
+.content1 p{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+
+@media(max-width:768px)
+{
+    .about-us{
+        flex-direction: column;
+    }
+    .about-us img{
+        flex:0 100%;
+        max-width: 100%;
+    }
+    .content1{
+        flex:0 100%;
+        max-width: 100%;
+        padding: 15px;
+
+    }
+}
+
+
+/* package categories css */
+ .list-contain{
+    margin-top: 5px;
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content:space-between; 
+    background-color: whitesmoke;  
+}
+
+.left-col{
+    flex-basis: 100%;
+} 
+
+/* .right-col{
+    flex-basis: 25%;
+} */
+
+.left-col h1{
+    color: #990000;
+    font-weight: 600;
+    margin-bottom: 30px;
+} 
+
+.package{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    border-top: 1px solid #36455c;
+}
+
+.package-img{
+    flex-basis: 40%;
+}
+
+.package-info{
+    flex-basis: 58%;
+    color: #000000;
+
+}
+
+.package-img img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.package-info h3{
+    font-weight: 600;
+    color: #555353;
+    font-size: 40px;
+    margin: 4px 0;
+}
+
+.package-info i{
+    font-size: 40px;
+    margin: 10px 1px;
+
+}
+
+.pack-price{
+    text-align: right;
+}
+
+.pack-price h4{
+    font-size: 40px;
+}
+
+.pack-price h4 span{
+    font-size: 1px;
+    font-weight: 100;
+}
+
+.package-info a{
+    background-color: black;
+    color:white;
+    padding: 15px 20px;
+    border-radius: 2px;
+    display: inline;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 700px){
+    .list-contain{
+        margin-top: 150px;
+    }
+    .left-col, .package-img, .package-info{
+        flex-basis: 100%;
+    }
+    .package-info i{
+        font-size: 16px;
+    }   
+}
+
+

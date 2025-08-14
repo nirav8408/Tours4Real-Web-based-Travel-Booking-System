@@ -1,0 +1,16 @@
+<?php
+    include("config.php");
+    if(isset($_SESSION['ID']))
+    {
+        unset($_SESSION['ID']);
+        session_destroy();
+        header('location:place.php');
+        header('location:package1.php');
+        header('location:package.php');
+        header('location:offers.php');
+        header('location:index.php');
+    }
+    else{
+        header('location:login.php');
+    }
+?>

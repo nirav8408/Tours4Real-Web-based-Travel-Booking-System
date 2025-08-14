@@ -1,0 +1,9 @@
+<?php
+    include("connection.php");
+    if(isset($_SESSION['adminid']))
+    {
+        unset($_SESSION['adminid']);
+        session_destroy();
+        header('location:index.php');
+    }
+?>

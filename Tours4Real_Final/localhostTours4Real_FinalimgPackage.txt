@@ -1,0 +1,56 @@
+Package_Categories_Slider Images
+
+            "http://localhost/Tours4Real_Final/img/Package/pack_categories_slider/cities.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/pack_categories_slider/heritage.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/pack_categories_slider/religious.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/pack_categories_slider/special.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/pack_categories_slider/holiday.jpg"
+
+
+Package_Categories_Into Images
+
+            "http://localhost/Tours4Real_Final/img/Package/pack_categories/cities.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/pack_categories/heritage.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/pack_categories/religious.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/pack_categories/special.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/pack_categories/holiday.jpg"
+
+
+Package_Categories Images : City
+
+            "http://localhost/Tours4Real_Final/img/Package/City/ahmedabad.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/City/vadodara.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/City/kutch.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/City/narmada.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/City/junagadh.jpg"
+
+Package_Categories Images : Heritage
+
+            "http://localhost/Tours4Real_Final/img/Package/Heritage/mahisagar.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/Heritage/valsad.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/Heritage/bhavnagar.jpg"
+            
+Package_Categories Images : Religious
+
+            "http://localhost/Tours4Real_Final/img/Package/Religious/akshardham.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/Religious/somnathtemple.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/Religious/ambajitempal.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/Religious/palitana.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/Religious/sarangpur.jpg"
+
+
+Package_Categories Images : Special
+
+            "http://localhost/Tours4Real_Final/img/Package/Special/lothal.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/Special/palanpur.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/Special/pavagadh.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/Special/poloForest.jpg"
+
+
+Package_Categories Images : Holiday
+
+            "http://localhost/Tours4Real_Final/img/Package/Holiday/weekend.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/Holiday/summer.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/Holiday/winter.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/Holiday/wildlife.jpg",
+            "http://localhost/Tours4Real_Final/img/Package/Holiday/daretopicnic.jpg"
