@@ -32,4 +32,3 @@ It includes separate **Admin** and **User** modules, a secure booking process, a
 
 ---
 
-## 📂 Project Structure
